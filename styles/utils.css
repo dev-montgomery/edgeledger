@@ -11,3 +11,37 @@
 .text-secondary {
   color: var(--secondary);
 }
+
+/* Button Styles */
+.btn {
+  display: inline-block;
+  padding: 10px 30px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: #fff;
+}
+
+.btn-secondary {
+  background: var(--secondary);
+  color: #fff;
+}
+
+.btn-dark {
+  background: #333;
+  color: #fff;
+}
+
+.btn-light {
+  background: #f4f4f4;
+  color: #333;
+}
